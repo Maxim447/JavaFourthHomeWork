@@ -8,9 +8,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите кол-во заявок: ");
         int quantity = scanner.nextInt();
-        System.out.print("Введити интревал появления заявок: ");
+        System.out.print("Введите интревал появления заявок: ");
         int interval = scanner.nextInt();
-        System.out.print("Введити кол-во этажей в доме: ");
+        System.out.print("Введите кол-во этажей в доме: ");
         FLOORS = scanner.nextInt();
 
         ConcurrentLinkedQueue<Request> requests = new ConcurrentLinkedQueue<>();
